@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LG헬로비전</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon_32.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/slick.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <div class="cover"></div>
+    <div class="side_menu">
+        <div class="login">
+            <ul class="btn">
+                <li><a href="javascript:;">로그인</a></li>
+                <li><a href="javascript:;">간편조회</a></li>
+                <li><a href="javascript:;">아이디/비밀번호찾기</a></li>
+            </ul>
+            <button class="close"><span></span></button>
+        </div>
+        <div class="m_util">
+            <ul class="list">
+                <li class="on"><a href="javascript:;">개인</a></li>
+                <li><a href="javascript:;">지역방송</a></li>
+                <li><a href="javascript:;">기업사업</a></li>
+                <li><a href="javascript:;">회사소개</a></li>
+            </ul>
+        </div>
+        <div class="m_bottom">
+            <ul class="menu">
+                <li class="on"><a href="javascript:;">헬로 Shop</a>
+                    <ul class="depth2">
+                        <li class="tit"><a href="javascript:;">헬로 Shop</a></li>
+                        <li class="sub"><a href="javascript:;">방송/인터넷<span></span></a>
+                            <ul class="depth3">
+                                <li><a href="javascript:;">기획전</a></li>
+                                <li><a href="javascript:;">BEST 상품</a></li>
+                                <li><a href="javascript:;">이유있는 제안</a></li>
+                                <li><a href="javascript:;">샵 혜택 안내</a></li>
+                            </ul>
+                        </li>    
+                        <li><a href="#">모바일</a></li>    
+                        <li><a href="#">렌탈</a></li>    
+                        <li><a href="#">제철장터</a></li>    
+                    </ul>
+                </li>
+                <li><a href="javascript:;">상품서비스</a>
+                    <ul class="depth2">
+                        <li class="tit"><a href="javascript:;">상품서비스</a></li>
+                        <li class="sub"><a href="javascript:;">인터넷<span></span></a>
+                            <ul class="depth3">
+                                <li><a href="javascript:;">인터넷 소개</a></li>
+                                <li><a href="javascript:;">인터넷 요금제</a></li>
+                                <li><a href="javascript:;">WiFi</a></li>
+                                <li><a href="javascript:;">부가서비스</a></li>
+                            </ul>
+                        </li>    
+                        <li class="sub"><a href="javascript:;">TV<span></span></a>
+                            <ul class="depth3">
+                                <li><a href="javascript:;">TV 소개</a></li>
+                                <li><a href="javascript:;">TV 요금제</a></li>
+                                <li><a href="javascript:;">주요서비스</a></li>
+                                <li><a href="javascript:;">VOD</a></li>
+                                <li><a href="javascript:;">TV APP</a></li>
+                                <li><a href="javascript:;">채널안내</a></li>
+                            </ul>
+                        </li>    
+                        <li class="sub"><a href="javascript:;">결합상품<span></span></a>
+                            <ul class="depth3">
+                                <li><a href="javascript:;">유선결합상품</a></li>
+                                <li><a href="javascript:;">헬로모바일 결합</a></li>
+                                <li><a href="javascript:;">SKT 휴대폰 결합</a></li>
+                                <li><a href="javascript:;">KT 휴대폰 결합</a></li>
+                                <li><a href="javascript:;">LG U+ 휴대폰 결합</a></li>
+                            </ul>
+                        </li>    
+                        <li class="sub"><a href="javascript:;">전화<span></span></a>
+                            <ul class="depth3">
+                                <li><a href="javascript:;">인터넷 전화</a></li>
+                                <li><a href="javascript:;">국제전화</a></li>
+                                <li><a href="javascript:;">부가서비스</a></li>
+                            </ul>
+                        </li>    
+                    </ul>
+                </li>
+                <li><a href="javascript:;">이벤트</a>
+                    <ul class="depth2">
+                        <li class="tit"><a href="javascript:;">이벤트</a></li>
+                        <li class="sub"><a href="javascript:;">이벤트<span></span></a>
+                            <ul class="depth3">
+                                <li><a href="javascript:;">진행 중인 이벤트</a></li>
+                                <li><a href="javascript:;">친구추천 이벤트</a></li>
+                                <li><a href="javascript:;">종료된 이벤트</a></li>
+                                <li><a href="javascript:;">당첨자 발표</a></li>
+                            </ul>
+                        </li>    
+                        <li><a href="javascript:;">제휴카드 할인</a></li>    
+                        <li><a href="javascript:;">헬로라이브</a></li>    
+                    </ul>
+                </li>
+                <li><a href="javascript:;">My헬로</a>
+                    <ul class="depth2">
+                        <li class="tit"><a href="javascript:;">My헬로</a></li>
+                        <li class="sub"><a href="javascript:;">가입/이용 정보 조회<span></span></a>
+                            <ul class="depth3">
+                                <li><a href="javascript:;">가입 상품 조회</a></li>
+                                <li><a href="javascript:;">실시간 사용내역 조회</a></li>
+                            </ul>
+                        </li>    
+                        <li class="sub"><a href="javascript:;">요금조회/납부관리<span></span></a>
+                            <ul class="depth3">
+                                <li><a href="javascript:;">월별 요금 조회</a></li>
+                                <li><a href="javascript:;">납부내역 조회</a></li>
+                                <li><a href="javascript:;">즉시 납부</a></li>
+                                <li><a href="javascript:;">납부방법 변경</a></li>
+                                <li><a href="javascript:;">청구서 신청/변경</a></li>
+                            </ul>
+                        </li>    
+                        <li><a href="javascript:;">회원정보 관리</a></li>    
+                    </ul>
+                </li>
+                <li><a href="javascript:;">고객지원</a>
+                    <ul class="depth2">
+                        <li class="tit"><a href="javascript:;">고객지원</a></li>
+                        <li class="sub"><a href="javascript:;">문의하기<span></span></a>
+                            <ul class="depth3">
+                                <li><a href="javascript:;">자주 찾는 질문</a></li>
+                                <li><a href="javascript:;">1:1 상담 문의/내역</a></li>
+                                <li><a href="javascript:;">칭찬합니다</a></li>
+                                <li><a href="javascript:;">AS 신청/취소</a></li>
+                                <li><a href="javascript:;">설치장소 변경 신청/취소</a></li>
+                                <li><a href="javascript:;">리모컨 택배발송 신청/취소</a></li>
+                                <li><a href="javascript:;">미환급액 조회</a></li>
+                                <li><a href="javascript:;">해지 상담 신청</a></li>
+                                <li><a href="javascript:;">뉴스 제보참여</a></li>
+                            </ul>
+                        </li>    
+                        <li class="sub"><a href="javascript:;">서비스 이용 안내<span></span></a>
+                            <ul class="depth3">
+                                <li><a href="javascript:;">상품 가입 가능 지역 조회</a></li>
+                                <li><a href="javascript:;">셀프 해결 가이드</a></li>
+                                <li><a href="javascript:;">LG헬로비전 고객센터 APP</a></li>
+                                <li><a href="javascript:;">가까운 매장 찾기</a></li>
+                                <li><a href="javascript:;">통화량 급증 예상일</a></li>
+                                <li><a href="javascript:;">ARS 안내</a></li>
+                            </ul>
+                        </li>    
+                        <li class="sub"><a href="#">공지 및 자료실<span></span></a>
+                            <ul class="depth3">
+                                <li><a href="javascript:;">공지사항</a></li>
+                                <li><a href="javascript:;">서류 양식 다운로드</a></li>
+                                <li><a href="javascript:;">자료실</a></li>
+                            </ul>
+                        </li>    
+                        <li class="sub"><a href="#">이용자 피해 예방 가이드<span></span></a>
+                            <ul class="depth3">
+                                <li><a href="javascript:;">단계별 가이드</a></li>
+                                <li><a href="javascript:;">주요 피해 유형</a></li>
+                            </ul>
+                        </li>    
+                    </ul>
+                </li>
+                <li><a href="javascript:;">헬로 서비스</a>
+                    <ul class="depth2">
+                        <li class="tit"><a href="javascript:;">헬로 서비스</a></li>
+                        <li><a href="javascript:;">지역방송</a></li>    
+                        <li><a href="javascript:;">전기차 충전</a></li>    
+                        <li><a href="javascript:;">광고 다이렉트몰</a></li>    
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- 상담 버튼 -->
+    <ul class="b_btn">
+        <li><a href="javascript:;">상담신청</a></li>
+        <li><a href="javascript:;">전화상담</a></li>
+    </ul>
+    <!-- 퀵메뉴 -->
+    <div class="quickMenu">
+        <a class="chat" href="javascript:;">채팅</a>
+        <a class="goTo" href="#">맨위로</a>
+    </div>
+    <!-- header -->
+    <header>
+        <div class="header_top">
+        <button class="m_btn"><img src="images/ico-menu.png" alt="전체메뉴"></button>
+        <h1><a href="index.html"><img src="images/logo.png" alt="lg헬로비전"></a></h1>
+        <button class="m_search"><img src="images/ico-search.png" alt="검색"></button>
+        </div>
+        <div class="m_menu">
+            <li><a href="#">헬로 Shop</a></li>
+            <li><a href="#">상품서비스</a></li>
+            <li><a href="#">이벤트</a></li>
+            <li><a href="#">고객지원</a></li>
+        </div>
+    </header>
+    <main>
+        <div class="visual">
+            <!-- Slider main container -->
+            <div class="swiper">
+            <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+             <!-- Slides -->
+                    <div class="swiper-slide"><img src="images/1.png" alt="이미지1"></div>
+                    <div class="swiper-slide"><img src="images/2.png" alt="이미지2"></div>
+                    <div class="swiper-slide"><img src="images/3.png" alt="이미지3"></div>
+                    <div class="swiper-slide"><img src="images/4.png" alt="이미지4"></div>
+                    <div class="swiper-slide"><img src="images/5.png" alt="이미지5"></div>
+                    <div class="swiper-slide"><img src="images/6.png" alt="이미지6"></div>
+                    <div class="swiper-slide"><img src="images/7.png" alt="이미지7"></div>
+                    <div class="swiper-slide"><img src="images/8.png" alt="이미지8"></div>
+                    <div class="swiper-slide"><img src="images/9.png" alt="이미지9"></div>
+                </div>
+            <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+                <button class="btn_pause">재생/정지</button>
+            </div>
+        </div>
+        <!-- login -->
+        <div class="login">
+            <h3>안녕하세요! <span>고객님</span></h3>
+            <p>어떤 상품을 찾으세요?</p>
+            <span><a href="javascript:;">로그인</a></span>
+            <ul class="item">
+                <li><a href="javascript:;">TV/인터넷</a></li>
+                <li><a href="javascript:;">렌탈</a></li>
+                <li><a href="javascript:;">모바일</a></li>
+            </ul>
+        </div>
+        <!-- promotion -->
+        <div class="promo_slide">
+            <div class="slick1">
+                <div class="slide p1">
+                    <a href="javascript:;">
+                        <div class="txt">
+                            <p>온 가족을 위한 콘텐츠!</p>
+                            <p>헬로tv <span>디즈니+</span></p>
+                        </div>
+                        <div class="pic"><img src="images/main_promo_01.png" alt="promotion1"></div>
+                    </a>
+                </div>
+                <div class="slide p2">
+                    <a href="javascript:;">
+                        <div class="txt">
+                            <p>독점 콘텐츠가 가득!</p>
+                            <p>헬로tv <span>넷플릭스</span></p>
+                        </div>
+                        <div class="pic"><img src="images/main_promo_02.png" alt="promotion2"></div>
+                    </a>
+                </div>
+            </div>
+            <span class="promo_center">
+                <div class="p3">
+                    <a href="javasctipt:;">
+                        <div class="txt">
+                            <p>단말+요금 둘 다 할인!</p>
+                            <strong>헬로모바일</strong>
+                        </div>
+                        <div class="pic"><img src="images/main_promo_03.png" alt="promotion3"></div>       
+                    </a>
+                </div>
+                <div class="p4">
+                    <a href="javasctipt:;">
+                        <div class="txt">
+                            <p>일시불보다 싸다!</p>
+                            <strong>헬로렌탈</strong>
+                        </div>
+                        <div class="pic"><img src="images/main_promo_04.png" alt="promotion4"></div>       
+                    </a>
+                </div>
+            </span>
+            <div class="p5">
+                <a href="javasctipt:;">
+                    <div class="txt">
+                        <p>전국 팔도에서 산지 직송으로,</p>
+                        <p>더 신선하게! <span>제철장터</span></p>
+                    </div>
+                    <div class="pic"><img src="images/main_promo_05.png" alt="promotion5"></div>
+                </a>
+            </div>
+        </div>
+        <!-- banner --> 
+        <div class="slick2">
+            <div class="slide b1">
+                <a href="javascript:;">
+                    <img src="images/MO1.png" alt="배너1">
+                </a>
+            </div>
+            <div class="slide b2">
+                <a href="javascript:;">
+                    <img src="images/MO2.png" alt="배너1">
+                </a>
+            </div>
+        </div>
+        <!-- best product -->
+        <div class="bestitem">
+            <h3><a href="javascript:;">BEST 상품</a></h3>
+            <p><a href="javascript:;">더많은 상품 보기</a></p>
+            <div class="slick3">
+                <!-- 1p -->
+                <div class="slide 1p">
+                    <div class="top">
+                        <div class="tit">
+                            <h3>[직영몰 초특가] UHD방송은 기본, WiFi까지 전원 증정</h3>
+                            <h4>UHD 이코노미</h4>
+                            <div class="line">
+                                <a href="javasctipt:;">108채널</a>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <p class="price">25,300원</p>
+                            <p class="info">온라인 한정 초특가 적용 시</p>
+                            <p class="discout">월 <strong>6,600</strong>원</p>
+                            <p class="info">년 약정, 부가세 포함가</p>
+                            <div class="btn">
+                                <a href="javascript:;" class="btn_left">바로가입</a>
+                                <a href="javascript:;" class="btn_right">상담신청</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bottom">
+                        <ul class="txt">
+                            <li class="month"><span>이달한정</span><p>WiFi 무료, 월 6,600원 초특가</p></li>
+                            <li class="shop"><span>샵단독</span><p>바로가입시 24시간 번개설치</p></li>
+                        </ul>
+                        <ul class="list">
+                            <li>디즈니+, 넷플릭스, 유튜브</li>
+                            <li>UHD 셋톱박스로 더 좋은 화질</li>
+                            <li>헬로tv 모바일 APP 무료</li>  
+                        </ul>
+                        <div class="go_btn">얼마나 저렴한지 알아볼까요?</div>
+                    </div>
+                </div>
+                <!-- 2p -->
+                <div class="slide 2p">
+                    <div class="top">
+                        <div class="tit">
+                            <h3>[직영몰 초특가] 타사 대비 반값! UHD방송+기가인터넷</h3>
+                            <h4>UHD 뉴베이직 + 기가라이트</h4>
+                            <div class="line">
+                                <a href="javasctipt:;">233채널</a>
+                                <span>500Mbps</span>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <p class="price">22,000원</p>
+                            <p class="info">제휴카드 할인 시</p>
+                            <p class="discout">월 <strong>5,000</strong>원</p>
+                            <p class="info">3년 약정, 부가세 포함가</p>
+                            <div class="btn">
+                                <a href="javascript:;" class="btn_left">바로가입</a>
+                                <a href="javascript:;" class="btn_right">상담신청</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bottom">
+                        <ul class="txt">
+                            <li class="month"><span>이달한정</span><p>사은품 대신 요금 할인 집</p></li>
+                            <li class="shop"><span>샵단독</span><p>바로가입시 24시간 번개설치</p></li>
+                        </ul>
+                        <ul class="list">
+                            <li>WiFi 공유기 무료</li>
+                            <li>헬로tv 모바일 APP 무료</li>
+                            <li>인터넷 30일 품질보장제</li>
+                        </ul>
+                        <div class="go_btn">얼마나 저렴한지 알아볼까요?</div>
+                    </div>
+                </div>
+                <!-- 3p -->
+                <div class="slide 3p">
+                    <div class="top">
+                        <div class="tit">
+                            <h3>[직영몰 초특가] 1만원대 가성비 UHD방송+초고속 인터넷</h3>
+                            <h4>UHD 이코노미 + 광랜라이트+</h4>
+                            <div class="line">
+                                <a href="javasctipt:;">108채널</a>
+                                <span>100Mbps</span>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <p class="price">19,800원</p>
+                            <p class="info">제휴카드 할인 시</p>
+                            <p class="discout">월 <strong>2,800</strong>원</p>
+                            <p class="info">3년 약정, 부가세 포함가</p>
+                            <div class="btn">
+                                <a href="javascript:;" class="btn_left">바로가입</a>
+                                <a href="javascript:;" class="btn_right">상담신청</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bottom">
+                        <ul class="txt">
+                            <li class="month"><span>이달한정</span><p>인터넷 30일 품질보장제</p></li>
+                            <li class="shop"><span>샵단독</span><p>바로가입시 24시간 번개설치</p></li>
+                        </ul>
+                        <ul class="list">
+                            <li>헬로비전 직영몰 단독 요금제</li>
+                            <li>WiFi 공유기 무료</li>
+                            <li>헬로tv 모바일 APP 무료</li>
+                        </ul>
+                        <div class="go_btn">얼마나 저렴한지 알아볼까요?</div>
+                    </div>
+                </div>
+                <!-- 4p -->
+                <div class="slide 4p">
+                    <div class="top">
+                        <div class="tit">
+                            <h3>[LG50인치 TV무료]UHD방송+10배빠른 기가인터넷</h3>
+                            <h4>UHD 뉴베이직 + 플래티넘기가</h4>
+                            <div class="line">
+                                <a href="javasctipt:;">233채널</a>
+                                <span>1Gbps</span>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <p class="price">32,120원</p>
+                            <p class="info">제휴카드 할인 시</p>
+                            <p class="discout">월 <strong>15,120</strong>원</p>
+                            <p class="info">3년 약정, 부가세 포함가</p>
+                            <div class="btn">
+                                <a href="javascript:;" class="btn_left">바로가입</a>
+                                <a href="javascript:;" class="btn_right">상담신청</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bottom">
+                        <ul class="txt">
+                            <li class="month"><span>이달한정</span><p>최신 가전 사은품 증정</p></li>
+                            <li class="shop"><span>샵단독</span><p>인터넷 10% 추가 할인</p></li>
+                        </ul>
+                        <ul class="list">
+                            <li>오늘 가입, 오늘 설치</li>
+                            <li>기가 WiFi 공유기 무료</li>
+                            <li>헬로tv 모바일 APP 무료</li>
+                            <li>인터넷 30일 품질보장제</li>
+                        </ul>
+                        <div class="go_btn">얼마나 저렴한지 알아볼까요?</div>
+                    </div>
+                </div>
+                <!-- 5p -->
+                <div class="slide 5p">
+                    <div class="top">
+                        <div class="tit">
+                            <h3>[인터넷단독] 최고 가성비 고품질 고속 광랜 인터넷!</h3>
+                            <h4>광랜라이트</h4>
+                            <div class="line">
+                                <span>100Mbps</span>
+                                <span>합리적 가격</span>
+                                <span>품질보장</span>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <p class="price">18,710원</p>
+                            <p class="info">UHD TV와 함께하면</p>
+                            <p class="discout">월 <strong>12,100</strong>원</p>
+                            <p class="info">3년 약정, 부가세 포함가</p>
+                            <div class="btn">
+                                <a href="javascript:;" class="btn_left">바로가입</a>
+                                <a href="javascript:;" class="btn_right">상담신청</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bottom">
+                        <ul class="txt">
+                            <li class="month"><span>이달한정</span><p>인터넷 10% + 프로모션 할인</p></li>
+                            <li class="shop"><span>샵단독</span><p>바로가입 시 24시간 번개설치</p></li>
+                        </ul>
+                        <ul class="list">
+                            <li>WiFi 공유기 무료</li>
+                            <li>인터넷 30일 품질보장제</li>
+                        </ul>
+                        <div class="go_btn">얼마나 저렴한지 알아볼까요?</div>
+                    </div>
+                </div>
+                <!-- 6p -->
+                <div class="slide 6p">
+                    <div class="top">
+                        <div class="tit">
+                            <h3>[방송단독] 233개 채널 풀채널로 최다 콘텐츠 시청!</h3>
+                            <h4>UHD 뉴베이직</h4>
+                            <div class="line">
+                                <span>넷플릭스</span>
+                                <span>유튜브</span>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <p class="price">13,200원</p>
+                            <p class="info">인터넷과 함께하면</p>
+                            <p class="discout">월 <strong>11,000</strong>원</p>
+                            <p class="info">3년 약정, 부가세 포함가</p>
+                            <div class="btn">
+                                <a href="javascript:;" class="btn_left">바로가입</a>
+                                <a href="javascript:;" class="btn_right">상담신청</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bottom">
+                        <ul class="txt">
+                            <li class="month"><span>이달한정</span><p>오늘 가입, 오늘 설치</p></li>
+                        </ul>
+                        <ul class="list">
+                            <li>넷플릭스, 유튜브, 아이들나</li>
+                            <li>골프채널 포함 전 채널 시청가능!</li>
+                            <li>헬로tv 모바일 APP 무료</li>
+                        </ul>
+                        <div class="go_btn">얼마나 저렴한지 알아볼까요?</div>
+                    </div>
+                </div>
+            </div>    
+        </div>
+        <!-- item -->
+        <div class="item_wrap">
+            <div class="tit">
+                <h3>가을맞이!<br>추천가전을 만나보세요</h3>
+                <p>깊어가는 가을, 헬로렌탈로 준비 끝!</p>
+            </div>
+            <div class="slick4">
+                <div class="item1">
+                    <p class="item_img">
+                    <img src="images/spacer_150x115.png" alt="1" style="background-image: url(images/item_1.jpeg);">
+                    </p>
+                    <p class="name">[LG] 울트라 HD TV 50인치</p>
+                    <p class="price">월 1,900원 <span>/ 제휴카드가</span></p>
+                </div>
+                <div class="item2">
+                    <p class="item_img">
+                        <img src="images/spacer_150x115.png" alt="2" style="background-image: url(images/item_2.jpeg);">
+                    </p>
+                    <p class="name">[LG]스탠바이미</p>
+                    <p class="price">월 7,900원 <span>/ 제휴카드가</span></p>
+                </div>
+                <div class="item3">
+                    <p class="item_img">
+                        <img src="images/spacer_150x115.png" alt="3" style="background-image: url(images/item_3.jpeg);">
+                    </p>
+                    <p class="name">[누하스] 안마의자 뉴클래식</p>
+                    <p class="price">월 29,000원 <span>/ 제휴카드가</span></p>
+                </div>
+                <div class="item4">
+                    <p class="item_img">
+                        <img src="images/spacer_150x115.png" alt="4" style="background-image: url(images/item_4.jpeg);">
+                    </p>
+                    <p class="name">[삼성] 양문형 냉장고 815L</p>
+                    <p class="price">월 15,900원 <span>/ 제휴카드가</span></p>
+                </div>
+                <div class="item5">
+                    <p class="item_img">
+                        <img src="images/spacer_150x115.png" alt="5" style="background-image: url(images/item_5.jpeg);">
+                    </p>
+                    <p class="name">[삼성] 그랑데 세탁기 AI 23kg</p>
+                    <p class="price">월 15,900원 <span>/ 제휴카드가</span></p>
+                </div>
+                <div class="item6">
+                    <p class="item_img">
+                        <img src="images/spacer_150x115.png" alt="6" style="background-image: url(images/item_6.jpeg);">
+                    </p>
+                    <p class="name">[삼성] 그랑데 건조기 AI 17kg</p>
+                    <p class="price">월 18,900원 <span>/ 제휴카드가</span></p>
+                </div>
+                <div class="item7">
+                    <p class="item_img">
+                        <img src="images/spacer_150x115.png" alt="7" style="background-image: url(images/item_7.jpeg);">
+                    </p>
+                    <p class="name">[위니아]제습기 19L</p>
+                    <p class="price">월 0원 <span>/ 제휴카드가</span></p>
+                </div>
+                <div class="item8">
+                    <p class="item_img">
+                        <img src="images/spacer_150x115.png" alt="8" style="background-image: url(images/item_8.png);">
+                    </p>
+                    <p class="name">[삼성]UHD TV 50&quot;</p>
+                    <p class="price">월 0원 <span>/ 제휴카드가</span></p>
+                </div>
+                <div class="item9">
+                    <p class="item_img">
+                        <img src="images/spacer_150x115.png" alt="9" style="background-image: url(images/item_9.jpeg);">
+                    </p>
+                    <p class="name">[삼성]BESPOKE 식기세척기</p>
+                    <p class="price">월 0원 <span>/ 제휴카드가</span></p>
+                </div>
+                <div class="item10">
+                    <p class="item_img">
+                        <img src="images/spacer_150x115.png" alt="10" style="background-image: url(images/item_10.jpeg);">
+                    </p>
+                    <p class="name">헬로비전 그린싱크</p>
+                    <p class="price">월 13,900원 <span>/ 제휴카드가</span></p>
+                </div>
+                <div class="item11">
+                    <p class="item_img">
+                        <img src="images/spacer_150x115.png" alt="11" style="background-image: url(images/item_11.png);">
+                    </p>
+                    <p class="name">[LG]트롬 ThinQ 15kg 세탁기</p>
+                    <p class="price">월 7,900원 <span>/ 제휴카드가</span></p>
+                </div>
+                <div class="item12">
+                    <p class="item_img">
+                        <img src="images/spacer_150x115.png" alt="12" style="background-image: url(images/item_12.jpeg);">
+                    </p>
+                    <p class="name">[LG]퓨리케어 에어로타워</p>
+                    <p class="price">월 21,100원 <span>/ 제휴카드가</span></p>
+                </div>
+                <div class="item13">
+                    <p class="item_img">
+                        <img src="images/spacer_150x115.png" alt="13" style="background-image: url(images/item_13.jpeg);">
+                    </p>
+                    <p class="name">[브람스]프라임</p>
+                    <p class="price">월 17,900원 <span>/ 제휴카드가</span></p>
+                </div>
+                <div class="item14">
+                    <p class="item_img">
+                        <img src="images/spacer_150x115.png" alt="14" style="background-image: url(images/item_14.jpeg);">
+                    </p>
+                    <p class="name">[삼성]BESPOKE 정수기</p>
+                    <p class="price">월 8,900원 <span>/ 제휴카드가</span></p>
+                </div>
+            </div>
+        </div>
+        <!-- qna -->
+        <div class="qna">
+            <h2>고객님 무엇이 궁금하세요?</h2>
+            <ul class="quest">
+                <li class="on"><a href="javascript:;">
+                    <p><strong>1. 상품</strong>상품 정보가 궁금하신가요?</p>
+                </a>
+                    <ul class="list2">
+                        <li><a href="javascript:;">헬로tv</a></li>
+                        <li><a href="javascript:;">헬로인터넷</a></li>
+                        <li><a href="javascript:;">헬로모바일</a></li>
+                        <li><a href="javascript:;">헬로렌탈</a></li>
+                    </ul>
+                </li>
+                <li><a href="javascript:;">
+                    <p><strong>2. 혜택/이벤트</strong>내게 맞는 상품과 혜택을 확인하세요!</p>
+                </a>
+                    <ul class="list2">
+                        <li><a href="javascript:;">이달의 기획전</a></li>
+                        <li><a href="javascript:;">이벤트</a></li>
+                        <li><a href="javascript:;">제휴카드 할인</a></li>
+                        <li><a href="javascript:;">샵 혜택 안내</a></li>
+                    </ul>
+                </li>
+                <li><a href="javascript:;">
+                    <p><strong>3. 내 정보</strong>청구 요금 관련 궁금증 확인!</p>
+                </a>
+                    <ul class="list2">
+                        <li><a href="javascript:;">가입 상품 조회</a></li>
+                        <li><a href="javascript:;">청구 요금 조회</a></li>
+                        <li><a href="javascript:;">납부내역 조회</a></li>
+                        <li><a href="javascript:;">납부방법 변경</a></li>
+                    </ul>
+                </li>
+                <li><a href="javascript:;">
+                    <p><strong>4. 서비스</strong>어렵고 헷갈리는 서비스 궁금증 해결!</p>
+                </a>
+                    <ul class="list2">
+                        <li><a href="javascript:;">1:1 문의</a></li>
+                        <li><a href="javascript:;">가입 가능 지역</a></li>
+                        <li><a href="javascript:;">자주 찾는 질문</a></li>
+                        <li><a href="javascript:;">셀프 해결 가이드</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="direct">
+            <h4>헬로비전 서비스 바로가기</h4>
+            <div class="direct_list">
+                <div><a href="javascript:;">전기차 충전</a></div>
+                <div><a href="javascript:;">지역방송</a></div>
+                <div><a href="javascript:;">제철장터</a></div>
+                <div><a href="javascript:;">광고 다이렉트몰</a></div>
+            </div>
+        </div>
+        <div class="service">
+            <h2>LG헬로비전 서비스 소개</h2>
+            <div class="slick5">
+                <div class="service1">
+                    <a href="javascript:;">
+                        <img src="images/M_Main_하단_banner_01_640X270.png" alt="렌탈">
+                    </a>
+                </div>
+                <div class="service2">
+                    <a href="javascript:;">
+                        <img src="images/M_Main_하단_banner_03_640X270.png" alt="모바일">
+                    </a>
+                </div>
+                <div class="service3">
+                    <a href="javascript:;">
+                        <img src="images/M_Main_하단_banner_04_640X270.png" alt="지역방송">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="customer">
+            <h3>고객센터</h3>
+            <ul class="util">
+                <li><a href="">온라인상담</a></li>
+                <li><a href="">자주 찾는 질문</a></li>
+                <li><a href="">이용안내</a></li>
+            </ul>
+        </div>
+        <div class="notice">
+            <h3>공지사항</h3>
+            <p>
+                22년 7월 자동이체(신용카드) 출금(승인)일 안내
+                <span class="date">2022-07-06</span>
+            </p>
+        </div>
+    </main>
+    <footer>
+        <h2><a href="javascript:;"><img src="images/logo-cjhello.png" alt="엘지헬로비전"></a></h2>
+        <ul class="info">
+            <li><a href="#">이용약관</a></li>
+            <li><a href="#">개인정보처리방침</a></li>
+        </ul>
+        <address>
+            대표이사 송구영 <span class="separator"></span> 개인정보보호 책임자 이건호<br>
+		    사업자 등록번호 117-81-13423<br>
+		    통신판매번호 2017-서울마포-0254<br>
+		    주소 서울특별시 마포구 월드컵북로56길 19 상암디지털드림타워 
+			<div class="cscenter-tel">			
+				<p>고객행복센터 <a href="javascript:;">1855-1000</a></p>
+				<p>무료/ 헬로전화 이용 시 <a href="javascript:;">070-7373-1002~3</a></p>
+				<p>무료/ 타사 전화 이용 시 <a href="javascript:;">080-120-1012</a></p>
+			</div>
+		    <p class="colpyright">Copyright © 2020 LG HelloVision All rights reserved.</p>
+        </address>
+    </footer>
+</body>
+</html>
